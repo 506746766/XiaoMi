@@ -54,7 +54,7 @@ window.onload=function(){
 
 
 
-	    var aa=getClass("remen2");
+	 var aa=getClass("remen2");
 	 var bb=getClass("znyjright3");
 
 	 
@@ -152,19 +152,7 @@ window.onload=function(){
 	   }  
 
 //znyjbox的一个小动画
-var yc=getClass('yc');
-var znyj=$('.znyjbox1');
-for(var i=0;i<znyj.length;i++){
-	znyj[i].index=i
-	znyj[i].onmouseover=function(){
-		animate(yc[this.index],{bottom:0},150)
-	
- 	}
- 	znyj[i].onmouseout=function(){
-		animate(yc[this.index],{bottom:-69},150)
-	
- 	}
-}
+
 
 splbt('.wheel-tj','.lun1','.jiantour1','.jiantoul1')
 splbt('.wheel-box','.lun','.jiantour','.jiantoul')
